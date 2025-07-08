@@ -1,5 +1,4 @@
 {
-  "homepage": "https://ajmalkbangash.github.io/Portfolio-Frontend",
   "name": "portfolio_frontend",
   "version": "0.1.2",
   "private": true,
@@ -39,8 +38,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
