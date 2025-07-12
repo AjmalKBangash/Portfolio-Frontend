@@ -22,11 +22,11 @@ h3 {
 
 .background-img {
   /* background-image: url("/home/ajay/Desktop/Real_Projects/portfolio_frontend/public/images/back-img.png"); */
-  background-image: url("/portfolio_frontend/public/images/back-img.png"); 
+  /* background-image: url("/portfolio_frontend/public/images/back-img.png");  */
   /* up one This is for dockr image */
     /* background-image: url("/home/user/portfolio_frontend/public/images/back-img.png");  */
     /* up one is for openshift  */
-  /* background-image: url("/home/ajmal/Desktop/Real_Projects/Portfolio-Frontend/public/images/back-img.png"); */
+  background-image: url("/home/ajmal/Desktop/Real_Projects/Portfolio-Frontend/public/images/back-img.png");
   /* background-image: url("images/back-img.png"); */
   /* background-image: url("/images/back-img.png"); */
   /* background-image: url(/public/images/back-img.png); */
