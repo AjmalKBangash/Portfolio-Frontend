@@ -293,7 +293,7 @@ function Home() {
                 transition={{ duration: 2.5 }}
               >
                 <img src="images/Ajay.png" className="profile-img "></img>
-                <h1 className=" center-items">AJMAL KHAN</h1>
+                <h1 className=" center-items">AJMAL KHAN BANGASH</h1>
                 <div className=" center-items">
                   I am a Software and DevOps Engineer
                 </div>
