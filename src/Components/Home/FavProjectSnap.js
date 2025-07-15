@@ -44,17 +44,14 @@ function FavProjectSnap() {
   }
 
   function preFunCarousel() {
-    console.log("clickedddddddddddddddddd pre");
     //   EXTRACTING FAV SNAPS FROM COOKIES
     const favorites = JSON.parse(Cookies.get("favoritePictures") || "[]");
     const isFirstSlide = imgID === 0;
     if (isFirstSlide) {
       // setImgID(8);
       setImgID(favorites.length - 1);
-      console.log("clickedddddddddddddddddd ----- pre");
     } else {
       setImgID(imgID - 1);
-      console.log("clickedddddddddddddddddd +++++ pre");
     }
   }
   function nxtFunCarousel() {

@@ -62,6 +62,12 @@ textarea {
   margin: 0% 10px;
   text-align: center;
 }
+.contact-links-whatsapp:hover {
+  color:  #25D366 !important;
+}
+.contact-links-mail:hover {
+  color: #0077cc !important;
+}
 /* MEDIA QUERIES STARTED FOR RESPONSIVENESS  */
 @media screen and (max-width: 800px) {
   .first_last_name input {
