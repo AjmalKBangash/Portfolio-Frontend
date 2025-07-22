@@ -130,7 +130,7 @@ I'm open and ready to dive into exciting new projects, so don't hesitate to drop
 
   </a>
   <a 
-    href="https://wa.me/923334483486" 
+    href="https://wa.me/00966507460747" 
     style={{
       color: "#25D366",
       textDecoration: "none",
