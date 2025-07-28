@@ -66,11 +66,6 @@ let skillToolss = [
     skill: "MySQL",
     per: "67",
   },
-  {
-    skill_date: "2024-03-16",
-    skill: "Data Structures",
-    per: "77",
-  },
 ];
 
 let skillToolsDevOpss = [
@@ -90,6 +85,21 @@ let skillToolsDevOpss = [
     per: 79,
   },
   {
+    skill_date: "2024-03-12",
+    skill: "Red-Hat Openshift ACM",
+    per: 79,
+  },
+  {
+    skill_date: "2024-03-12",
+    skill: "Red-Hat Openshift ACS",
+    per: 79,
+  },
+  {
+    skill_date: "2024-03-12",
+    skill: "Red-Hat Openshift Data foundation",
+    per: 79,
+  },
+  {
     skill_date: "2024-03-13",
     skill: "Bash Scripting",
     per: 75,
@@ -98,11 +108,6 @@ let skillToolsDevOpss = [
     skill_date: "2024-03-15",
     skill: "Scripting with Python",
     per: 80,
-  },
-  {
-    skill_date: "2024-03-17",
-    skill: "Ansible",
-    per: 50,
   },
   {
     skill_date: "2024-03-18",
@@ -133,7 +138,7 @@ let skillToolsDevOpss = [
 let skillToolsCloudd = [
   {
     skill_date: "2024-03-10",
-    skill: "AWS",
+    skill: "AWS VPC",
     per: 77,
   },
   {
@@ -143,7 +148,7 @@ let skillToolsCloudd = [
   },
   {
     skill_date: "2024-03-13",
-    skill: "AWS EC2",
+    skill: "AWS VPS",
     per: 80,
   },
   {
@@ -157,24 +162,19 @@ let skillToolsCloudd = [
     per: 80,
   },
   {
+    skill_date: "2024-03-17",
+    skill: "AWS ECS",
+    per: 95,
+  },
+  {
     skill_date: "2024-03-16",
     skill: "AWS S3 ",
     per: 80,
   },
   {
     skill_date: "2024-03-17",
-    skill: "AWS EBS",
-    per: 80,
-  },
-  {
-    skill_date: "2024-03-17",
     skill: "AWS RDS",
     per: 80,
-  },
-  {
-    skill_date: "2024-03-17",
-    skill: "AWS VPC",
-    per: 95,
   },
 ];
 
