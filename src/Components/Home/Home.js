@@ -142,17 +142,22 @@ let skillToolsDevOpss = [
   {
     skill_date: "2024-03-22",
     skill: "CI/CD",
-    per: 79,
+    per: 85,
   },
   {
     skill_date: "2024-03-23",
     skill: "Nexus",
-    per: 93,
+    per: 71,
   },
   {
     skill_date: "2024-03-23",
     skill: "Checkov",
-    per: 93,
+    per: 73,
+  },
+  {
+    skill_date: "2024-04-23",
+    skill: "SonarQube",
+    per: 76,
   },
 ];
 let skillToolsCloudd = [
