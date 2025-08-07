@@ -110,6 +110,16 @@ let skillToolsDevOpss = [
     per: 80,
   },
   {
+    skill_date: "2024-03-16",
+    skill: "Podman",
+    per: 93,
+  },
+  {
+    skill_date: "2024-03-17",
+    skill: "Trivy",
+    per: 93,
+  },
+  {
     skill_date: "2024-03-18",
     skill: "Terraform",
     per: 80,
@@ -133,6 +143,16 @@ let skillToolsDevOpss = [
     skill_date: "2024-03-22",
     skill: "CI/CD",
     per: 79,
+  },
+  {
+    skill_date: "2024-03-23",
+    skill: "Nexus",
+    per: 93,
+  },
+  {
+    skill_date: "2024-03-23",
+    skill: "Checkov",
+    per: 93,
   },
 ];
 let skillToolsCloudd = [
