@@ -315,7 +315,7 @@ function Home() {
                 <img src="images/Ajay.png" className="profile-img "></img>
                 <h1 className=" center-items">AJMAL KHAN</h1>
                 <div className=" center-items">
-                  I am a Software and DevOps Engineer
+                  I am a Software and DevSecOps Engineer
                 </div>
                 <div className="social-icons">
                   <FaLinkedin
@@ -447,7 +447,7 @@ function Home() {
               </div>
             </div> */}
           </div>
-          <h2 className="three-engineers">DevOps Engineering</h2>
+          <h2 className="three-engineers">DevSecOps Engineering</h2>
           <div className="skillful-tools">
             {skillToolsDevOps.results ?
               skillToolsDevOps.results?.map((skillper, index) => {
