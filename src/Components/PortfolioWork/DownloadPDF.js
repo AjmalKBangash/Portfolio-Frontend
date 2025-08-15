@@ -52,7 +52,7 @@ function DownloadPDF() {
   return (
     <motion.span
       className="two-btns-on-back-img"
-      onClick={downloadPDF}
+      // onClick={downloadPDF}
       ref={refPro}
       initial={{ x: -150, opacity: 0 }}
       animate={{ x: inViewPro ? 0 : -150, opacity: inViewPro ? 1 : 0 }}
