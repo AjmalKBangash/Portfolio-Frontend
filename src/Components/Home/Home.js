@@ -397,25 +397,14 @@ function Home() {
         >
           <div className="about" id="about-section">
             <h1>ABOUT</h1>
-            <h3>Introduction to my Development Experience and Skills</h3>
+            <h3>Career Experience and Specialized Skills</h3>
             <br />
-            <p>
-              Welcome to my portfolio! I am a skilled developer with expertise
-              in developing robust backend business logics and REST APIs using
-              Python with Django. My passion extends to creating seamless user
-              interfaces, where I leverage JavaScript with React as my framework
-              of choice. I have hands-on experience with Nginx, employing it for
-              reverse proxy, load balancing, and efficiently proxying requests.
-              {/* </p> */}
-              {/* <p> */}
-              In the realm of containerization, I possess proficiency in Docker,
-              ensuring that applications run consistently across various
-              environments. Continuously striving for excellence, I am actively
-              enhancing my skills in cloud computing, with a focus on AWS,GCD
-              and Azure and delving into the world of DevSecOps Engineering its
-              tools and technologies.
-            </p>
             <br />
+            <h4>Technical Expertise:</h4>
+            <p>As a DevSecOps Engineer with 4+ years of experience, I specialize in end-to-end application lifecycle management—from developing scalable backend systems (Django, REST APIs) and dynamic frontends (React/JavaScript) to deploying secure, high-availability infrastructure on cloud (AWS/Azure/GCP) and on-premises (OpenShift). My technical proficiency spans Kubernetes/OpenShift cluster deployment, Infrastructure-as-Code (Terraform), and CI/CD pipeline automation (Jenkins), with rigorous attention to security via Trivy, Checkov, and GitLeaks integration. I optimize performance through load testing (Locust), monitoring (Prometheus/Grafana), and database tuning (PostgreSQL, Redis), ensuring robust solutions aligned with DevSecOps principles.</p>
+            <br />
+            <h4>DevOps & Cloud Capabilities:</h4>
+            <p>I architect fault-tolerant systems using containerization (Docker/Podman) and orchestration tools (Kubernetes/kubeadm), with expertise in configuring reverse proxies (Nginx) and managing hybrid cloud environments. My work includes designing secure VPCs, automating AWS EKS deployments, and implementing zero-downtime strategies for Django applications. Certified in Kubernetes (CKA/CKS) and OpenShift (RHCOA), I bridge development and operations by enforcing ITIL-inspired change management, infrastructure security, and AI-driven observability—all while maintaining compliance with Linux FHS standards and optimizing costs through centralized monitoring.</p>
             <p>
               Explore my portfolio to discover the projects that showcase my
               commitment to delivering innovative solutions and my journey
