@@ -54,7 +54,7 @@ function Services() {
         </div>
         <div className="services-card">
           <VscAzureDevops className="services-icon" />
-          <h2>DevOps</h2>
+          <h2>DevSecOps</h2>
           <p>
             With the development of a Software now comes the second step of production grade configuration management and deployment with CI/CD pipelines called DevOps. I am a skilled DevOps engineer with using Terraform for IAC, Jenkins for CI/CD, AWS for the cloud servers and Openshift for the on-premises servers deployment and pipelines. 
           </p>
@@ -118,11 +118,11 @@ function Services() {
         </div>
         <div className="services-card">
           <SiNginx className="services-icon" />
-          <h2>AWS</h2>
+          <h2>Oracle</h2>
           <p>
-            My competency excels in AWS provisioning, configuration, and
+            My competency excels in Oracle provisioning, configuration, and
             optimization for scalable web application deployment. With strong
-            DevOps skills, I can automate CI/CD pipelines, implements
+            DevSecOps skills, I can automate CI/CD pipelines, implements
             infrastructure as code (IaC) with Terraform, and ensures robust monitoring and
             logging setups for seamless operations.
           </p>
