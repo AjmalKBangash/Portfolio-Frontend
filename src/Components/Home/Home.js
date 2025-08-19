@@ -160,48 +160,91 @@ let skillToolsDevOpss = [
     per: 76,
   },
 ];
+// let skillToolsCloudd = [
+//   {
+//     skill_date: "2024-03-10",
+//     skill: "AWS VPC",
+//     per: 77,
+//   },
+//   {
+//     skill_date: "2024-03-17",
+//     skill: "AWS IAM",
+//     per: 79,
+//   },
+//   {
+//     skill_date: "2024-03-13",
+//     skill: "AWS VPS",
+//     per: 80,
+//   },
+//   {
+//     skill_date: "2024-03-14",
+//     skill: "AWS Lambda",
+//     per: 10,
+//   },
+//   {
+//     skill_date: "2024-03-15",
+//     skill: "AWS EKS",
+//     per: 80,
+//   },
+//   {
+//     skill_date: "2024-03-17",
+//     skill: "AWS ECS",
+//     per: 95,
+//   },
+//   {
+//     skill_date: "2024-03-16",
+//     skill: "AWS S3 ",
+//     per: 80,
+//   },
+//   {
+//     skill_date: "2024-03-17",
+//     skill: "AWS RDS",
+//     per: 80,
+//   },
+// ];
 let skillToolsCloudd = [
   {
     skill_date: "2024-03-10",
-    skill: "AWS VPC",
+    skill: "OCI VCN (Virtual Cloud Network)", // AWS VPC equivalent
     per: 77,
   },
   {
     skill_date: "2024-03-17",
-    skill: "AWS IAM",
+    skill: "OCI IAM (Identity & Access Management)", // AWS IAM equivalent
     per: 79,
   },
   {
     skill_date: "2024-03-13",
-    skill: "AWS VPS",
+    skill: "OCI Compute (VMs)", // AWS EC2 / VPS equivalent
     per: 80,
   },
   {
     skill_date: "2024-03-14",
-    skill: "AWS Lambda",
+    skill: "OCI Functions", // AWS Lambda equivalent
     per: 10,
   },
   {
     skill_date: "2024-03-15",
-    skill: "AWS EKS",
+    skill: "OCI OKE (Container Engine for Kubernetes)", // AWS EKS equivalent
     per: 80,
   },
   {
     skill_date: "2024-03-17",
-    skill: "AWS ECS",
+    skill: "OCI Container Instances / OKE Services", // AWS ECS equivalent
     per: 95,
   },
   {
     skill_date: "2024-03-16",
-    skill: "AWS S3 ",
+    skill: "OCI Object Storage", // AWS S3 equivalent
     per: 80,
   },
   {
     skill_date: "2024-03-17",
-    skill: "AWS RDS",
+    skill: "OCI Autonomous Database / OCI Database Service", // AWS RDS equivalent
     per: 80,
   },
 ];
+
 
 function Home() {
   const [skillTools, setSkillTools] = useState(skillToolss);
@@ -401,10 +444,10 @@ function Home() {
             <br />
             <br />
             <h4>Technical Expertise:</h4>
-            <p>As a DevSecOps Engineer with 4+ years of experience, I specialize in end-to-end application lifecycle management—from developing scalable backend systems (Django, REST APIs) and dynamic frontends (React/JavaScript) to deploying secure, high-availability infrastructure on cloud (AWS/Azure/GCP) and on-premises (OpenShift). My technical proficiency spans Kubernetes/OpenShift cluster deployment, Infrastructure-as-Code (Terraform), and CI/CD pipeline automation (Jenkins), with rigorous attention to security via Trivy, Checkov, and GitLeaks integration. I optimize performance through load testing (Locust), monitoring (Prometheus/Grafana), and database tuning (PostgreSQL, Redis), ensuring robust solutions aligned with DevSecOps principles.</p>
+            <p>As a DevSecOps Engineer with 4+ years of experience, I specialize in end-to-end application lifecycle management—from developing scalable backend systems (Django, REST APIs) and dynamic frontends (React/JavaScript) to deploying secure, high-availability infrastructure on cloud (Oracle/Azure) and on-premises (OpenShift). My technical proficiency spans Kubernetes/OpenShift cluster deployment, Infrastructure-as-Code (Terraform), and CI/CD pipeline automation (Jenkins), with rigorous attention to security via Trivy, Checkov, and GitLeaks integration. I optimize performance through load testing (Locust), monitoring (Prometheus/Grafana), and database tuning (PostgreSQL, Redis), ensuring robust solutions aligned with DevSecOps principles.</p>
             <br />
             <h4>DevOps & Cloud Capabilities:</h4>
-            <p>I architect fault-tolerant systems using containerization (Docker/Podman) and orchestration tools (Kubernetes/kubeadm), with expertise in configuring reverse proxies (Nginx) and managing hybrid cloud environments. My work includes designing secure VPCs, automating AWS EKS deployments, and implementing zero-downtime strategies for Django applications. Certified in Kubernetes (CKA/CKS) and OpenShift (RHCOA), I bridge development and operations by enforcing ITIL-inspired change management, infrastructure security, and AI-driven observability—all while maintaining compliance with Linux FHS standards and optimizing costs through centralized monitoring.</p>
+            <p>I architect fault-tolerant systems using containerization (Docker/Podman) and orchestration tools (Kubernetes/kubeadm), with expertise in configuring reverse proxies (Nginx) and managing hybrid cloud environments. My work includes designing secure VPCs, automating Oracle OKE deployments, and implementing zero-downtime strategies for Django applications. Certified in Kubernetes (CKA/CKS) and OpenShift (RHCOA), I bridge development and operations by enforcing ITIL-inspired change management, infrastructure security, and AI-driven observability—all while maintaining compliance with Linux FHS standards and optimizing costs through centralized monitoring.</p>
             <p>
               Explore my portfolio to discover the projects that showcase my
               commitment to delivering innovative solutions and my journey
