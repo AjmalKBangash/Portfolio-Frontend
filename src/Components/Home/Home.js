@@ -202,48 +202,101 @@ let skillToolsDevOpss = [
 //     per: 80,
 //   },
 // ];
+// let skillToolsCloudd = [
+//   {
+//     skill_date: "2024-03-10",
+//     skill: "OCI VCN (Virtual Cloud Network)", // AWS VPC equivalent
+//     per: 77,
+//   },
+//   {
+//     skill_date: "2024-03-17",
+//     skill: "OCI IAM (Identity & Access Management)", // AWS IAM equivalent
+//     per: 79,
+//   },
+//   {
+//     skill_date: "2024-03-13",
+//     skill: "OCI Compute (VMs)", // AWS EC2 / VPS equivalent
+//     per: 80,
+//   },
+//   {
+//     skill_date: "2024-03-14",
+//     skill: "OCI Functions", // AWS Lambda equivalent
+//     per: 10,
+//   },
+//   {
+//     skill_date: "2024-03-15",
+//     skill: "OCI OKE (Container Engine for Kubernetes)", // AWS EKS equivalent
+//     per: 80,
+//   },
+//   {
+//     skill_date: "2024-03-17",
+//     skill: "OCI Container Instances / OKE Services", // AWS ECS equivalent
+//     per: 95,
+//   },
+//   {
+//     skill_date: "2024-03-16",
+//     skill: "OCI Object Storage", // AWS S3 equivalent
+//     per: 80,
+//   },
+//   {
+//     skill_date: "2024-03-17",
+//     skill: "OCI Autonomous Database / OCI Database Service", // AWS RDS equivalent
+//     per: 80,
+//   },
+// ];
 let skillToolsCloudd = [
   {
     skill_date: "2024-03-10",
-    skill: "OCI VCN (Virtual Cloud Network)", // AWS VPC equivalent
+    skill: "Azure Active Directory (Entra ID)", // IAM equivalent
     per: 77,
   },
   {
-    skill_date: "2024-03-17",
-    skill: "OCI IAM (Identity & Access Management)", // AWS IAM equivalent
+    skill_date: "2024-03-11",
+    skill: "Azure Virtual Machines (VMs)", // Compute equivalent
+    per: 80,
+  },
+  {
+    skill_date: "2024-03-12",
+    skill: "Azure Kubernetes Service (AKS)", // K8s equivalent
     per: 79,
   },
   {
     skill_date: "2024-03-13",
-    skill: "OCI Compute (VMs)", // AWS EC2 / VPS equivalent
-    per: 80,
+    skill: "Azure Virtual Network (VNet)", // VCN equivalent
+    per: 82,
   },
   {
     skill_date: "2024-03-14",
-    skill: "OCI Functions", // AWS Lambda equivalent
-    per: 10,
+    skill: "Azure Blob Storage", // Object Storage equivalent
+    per: 85,
   },
   {
     skill_date: "2024-03-15",
-    skill: "OCI OKE (Container Engine for Kubernetes)", // AWS EKS equivalent
-    per: 80,
-  },
-  {
-    skill_date: "2024-03-17",
-    skill: "OCI Container Instances / OKE Services", // AWS ECS equivalent
-    per: 95,
+    skill: "Azure SQL Database", // RDS/Database equivalent
+    per: 78,
   },
   {
     skill_date: "2024-03-16",
-    skill: "OCI Object Storage", // AWS S3 equivalent
+    skill: "Azure Monitor & Log Analytics", // Monitoring equivalent
     per: 80,
   },
   {
     skill_date: "2024-03-17",
-    skill: "OCI Autonomous Database / OCI Database Service", // AWS RDS equivalent
-    per: 80,
+    skill: "Azure Key Vault", // Secrets Management equivalent
+    per: 83,
+  },
+  {
+    skill_date: "2024-03-18",
+    skill: "Azure Functions", // Serverless equivalent
+    per: 75,
+  },
+  {
+    skill_date: "2024-03-19",
+    skill: "Azure Cache for Redis", // Caching equivalent
+    per: 84,
   },
 ];
+
 
 
 function Home() {
