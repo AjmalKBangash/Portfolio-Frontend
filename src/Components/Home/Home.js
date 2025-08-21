@@ -160,48 +160,48 @@ let skillToolsDevOpss = [
     per: 76,
   },
 ];
-// let skillToolsCloudd = [
-//   {
-//     skill_date: "2024-03-10",
-//     skill: "AWS VPC",
-//     per: 77,
-//   },
-//   {
-//     skill_date: "2024-03-17",
-//     skill: "AWS IAM",
-//     per: 79,
-//   },
-//   {
-//     skill_date: "2024-03-13",
-//     skill: "AWS VPS",
-//     per: 80,
-//   },
-//   {
-//     skill_date: "2024-03-14",
-//     skill: "AWS Lambda",
-//     per: 10,
-//   },
-//   {
-//     skill_date: "2024-03-15",
-//     skill: "AWS EKS",
-//     per: 80,
-//   },
-//   {
-//     skill_date: "2024-03-17",
-//     skill: "AWS ECS",
-//     per: 95,
-//   },
-//   {
-//     skill_date: "2024-03-16",
-//     skill: "AWS S3 ",
-//     per: 80,
-//   },
-//   {
-//     skill_date: "2024-03-17",
-//     skill: "AWS RDS",
-//     per: 80,
-//   },
-// ];
+let skillToolsClouddAWS = [
+  {
+    skill_date: "2024-03-10",
+    skill: "AWS VPC",
+    per: 77,
+  },
+  {
+    skill_date: "2024-03-17",
+    skill: "AWS IAM",
+    per: 79,
+  },
+  {
+    skill_date: "2024-03-13",
+    skill: "AWS VPS",
+    per: 80,
+  },
+  {
+    skill_date: "2024-03-14",
+    skill: "AWS Lambda",
+    per: 10,
+  },
+  {
+    skill_date: "2024-03-15",
+    skill: "AWS EKS",
+    per: 80,
+  },
+  {
+    skill_date: "2024-03-17",
+    skill: "AWS ECS",
+    per: 95,
+  },
+  {
+    skill_date: "2024-03-16",
+    skill: "AWS S3 ",
+    per: 80,
+  },
+  {
+    skill_date: "2024-03-17",
+    skill: "AWS RDS",
+    per: 80,
+  },
+];
 // let skillToolsCloudd = [
 //   {
 //     skill_date: "2024-03-10",
@@ -303,6 +303,7 @@ function Home() {
   const [skillTools, setSkillTools] = useState(skillToolss);
   const [skillToolsDevOps, setSkillToolsDevOps] = useState(skillToolsDevOpss);
   const [skillToolsCloud, setSkillToolsCloud] = useState(skillToolsCloudd);
+  const [skillToolsCloudAWS, setSkillToolsCloudAWS] = useState(skillToolsClouddAWS);
   const dispatch = useDispatch();
   const [ref, inView] = useInView();
   // const [refProfile, inViewProfile] = useInView({
@@ -380,7 +381,18 @@ function Home() {
         console.log(err);
       });
   }, []);
-  // FOR CLOUD COMPUTING
+  // FOR CLOUD COMPUTING AWS
+    useEffect(() => {
+    axios
+      .get("portfolio/skill-tools-cloud/")
+      .then((res) => {
+        setSkillToolsCloudAWS(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+  // FOR CLOUD COMPUTING Azure
   useEffect(() => {
     axios
       .get("portfolio/skill-tools-cloud/")
@@ -576,6 +588,33 @@ function Home() {
                 );
               }):
               skillToolsCloud?.map((skillper, index) => {
+                return (
+                  <SkillsTool
+                    data={{ skill: skillper.skill, per: skillper.per }}
+                  />
+                );
+              })
+              }
+            {/* <div>
+              <div className="skillful-tools-name-per">
+                <span>React</span>
+                <span>80%</span>
+              </div>
+              <div className="skillful-tools-grey">
+                <div className="skillful-tools-orange"></div>
+              </div>
+            </div> */}
+          </div>
+                    <div className="skillful-tools">
+            {skillToolsCloudAWS.results ?
+              skillToolsCloudAWS.results?.map((skillper, index) => {
+                return (
+                  <SkillsTool
+                    data={{ skill: skillper.skill, per: skillper.per }}
+                  />
+                );
+              }):
+              skillToolsCloudAWS?.map((skillper, index) => {
                 return (
                   <SkillsTool
                     data={{ skill: skillper.skill, per: skillper.per }}
