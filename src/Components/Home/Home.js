@@ -147,7 +147,7 @@ let skillToolsDevOpss = [
   {
     skill_date: "2024-03-23",
     skill: "Nexus",
-    per: 71,
+    per: 67,
   },
   {
     skill_date: "2024-03-23",
@@ -158,6 +158,26 @@ let skillToolsDevOpss = [
     skill_date: "2024-04-23",
     skill: "SonarQube",
     per: 76,
+  },
+    {
+    skill_date: "2024-04-24",
+    skill: "ISO 27001 (Information Security)",
+    per: 73,
+  },
+    {
+    skill_date: "2024-04-25",
+    skill: "ISO 27017 (Cloud Security)",
+    per: 63,
+  },
+    {
+    skill_date: "2024-04-26",
+    skill: "ISO 27018 (Cloud Privacy)",
+    per: 67,
+  },
+    {
+    skill_date: "2024-04-27",
+    skill: "ISO 27034 (Security Tools)",
+    per: 77,
   },
 ];
 let skillToolsClouddAWS = [
