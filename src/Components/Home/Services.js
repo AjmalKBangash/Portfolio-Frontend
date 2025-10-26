@@ -118,9 +118,9 @@ function Services() {
         </div>
         <div className="services-card">
           <SiNginx className="services-icon" />
-          <h2>Oracle</h2>
+          <h2>Oracle Cloud</h2>
           <p>
-            My competency excels in Oracle provisioning, configuration, and
+            My competency excels in Oracle Cloud provisioning, configuration, and
             optimization for scalable web application deployment. With strong
             DevSecOps skills, I can automate CI/CD pipelines, implements
             infrastructure as code (IaC) with Terraform, and ensures robust monitoring and
