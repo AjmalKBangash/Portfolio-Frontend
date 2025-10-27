@@ -222,48 +222,48 @@ let skillToolsClouddAWS = [
     per: 80,
   },
 ];
-// let skillToolsCloudd = [
-//   {
-//     skill_date: "2024-03-10",
-//     skill: "OCI VCN (Virtual Cloud Network)", // AWS VPC equivalent
-//     per: 77,
-//   },
-//   {
-//     skill_date: "2024-03-17",
-//     skill: "OCI IAM (Identity & Access Management)", // AWS IAM equivalent
-//     per: 79,
-//   },
-//   {
-//     skill_date: "2024-03-13",
-//     skill: "OCI Compute (VMs)", // AWS EC2 / VPS equivalent
-//     per: 80,
-//   },
-//   {
-//     skill_date: "2024-03-14",
-//     skill: "OCI Functions", // AWS Lambda equivalent
-//     per: 10,
-//   },
-//   {
-//     skill_date: "2024-03-15",
-//     skill: "OCI OKE (Container Engine for Kubernetes)", // AWS EKS equivalent
-//     per: 80,
-//   },
-//   {
-//     skill_date: "2024-03-17",
-//     skill: "OCI Container Instances / OKE Services", // AWS ECS equivalent
-//     per: 95,
-//   },
-//   {
-//     skill_date: "2024-03-16",
-//     skill: "OCI Object Storage", // AWS S3 equivalent
-//     per: 80,
-//   },
-//   {
-//     skill_date: "2024-03-17",
-//     skill: "OCI Autonomous Database / OCI Database Service", // AWS RDS equivalent
-//     per: 80,
-//   },
-// ];
+let skillToolsCloudOCI = [
+  {
+    skill_date: "2024-03-10",
+    skill: "OCI VCN (Virtual Cloud Network)", // AWS VPC equivalent
+    per: 77,
+  },
+  {
+    skill_date: "2024-03-17",
+    skill: "OCI IAM (Identity & Access Management)", // AWS IAM equivalent
+    per: 79,
+  },
+  {
+    skill_date: "2024-03-13",
+    skill: "OCI Compute (VMs)", // AWS EC2 / VPS equivalent
+    per: 80,
+  },
+  {
+    skill_date: "2024-03-14",
+    skill: "OCI Functions", // AWS Lambda equivalent
+    per: 10,
+  },
+  {
+    skill_date: "2024-03-15",
+    skill: "OCI OKE (Container Engine for Kubernetes)", // AWS EKS equivalent
+    per: 80,
+  },
+  {
+    skill_date: "2024-03-17",
+    skill: "OCI Container Instances / OKE Services", // AWS ECS equivalent
+    per: 95,
+  },
+  {
+    skill_date: "2024-03-16",
+    skill: "OCI Object Storage", // AWS S3 equivalent
+    per: 80,
+  },
+  {
+    skill_date: "2024-03-17",
+    skill: "OCI Autonomous Database / OCI Database Service", // AWS RDS equivalent
+    per: 80,
+  },
+];
 let skillToolsCloudd = [
   {
     skill_date: "2024-03-10",
@@ -324,6 +324,7 @@ function Home() {
   const [skillToolsDevOps, setSkillToolsDevOps] = useState(skillToolsDevOpss);
   const [skillToolsCloud, setSkillToolsCloud] = useState(skillToolsCloudd);
   const [skillToolsCloudAWS, setSkillToolsCloudAWS] = useState(skillToolsClouddAWS);
+  const [skillToolsCloudOCI, setSkillToolsCloudOCI] = useState(skillToolsClouddAWS);
   const dispatch = useDispatch();
   const [ref, inView] = useInView();
   // const [refProfile, inViewProfile] = useInView({
@@ -418,6 +419,17 @@ function Home() {
       .get("portfolio/skill-tools-cloud/")
       .then((res) => {
         setSkillToolsCloud(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+    // FOR CLOUD COMPUTING Oracle
+  useEffect(() => {
+    axios
+      .get("portfolio/skill-tools-cloud/")
+      .then((res) => {
+        setSkillToolsCloudOCI(res.data);
       })
       .catch((err) => {
         console.log(err);
@@ -625,7 +637,7 @@ function Home() {
               </div>
             </div> */}
           </div>
-                    <div className="skillful-tools">
+          <div className="skillful-tools">
             {skillToolsCloudAWS.results ?
               skillToolsCloudAWS.results?.map((skillper, index) => {
                 return (
@@ -635,6 +647,33 @@ function Home() {
                 );
               }):
               skillToolsCloudAWS?.map((skillper, index) => {
+                return (
+                  <SkillsTool
+                    data={{ skill: skillper.skill, per: skillper.per }}
+                  />
+                );
+              })
+              }
+            {/* <div>
+              <div className="skillful-tools-name-per">
+                <span>React</span>
+                <span>80%</span>
+              </div>
+              <div className="skillful-tools-grey">
+                <div className="skillful-tools-orange"></div>
+              </div>
+            </div> */}
+          </div>
+          <div className="skillful-tools">
+            {skillToolsCloudOCI.results ?
+              skillToolsCloudOCI.results?.map((skillper, index) => {
+                return (
+                  <SkillsTool
+                    data={{ skill: skillper.skill, per: skillper.per }}
+                  />
+                );
+              }):
+              skillToolsCloudOCI?.map((skillper, index) => {
                 return (
                   <SkillsTool
                     data={{ skill: skillper.skill, per: skillper.per }}
