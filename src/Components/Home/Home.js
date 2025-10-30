@@ -465,7 +465,7 @@ function Home() {
                 <img src="images/Ajay.png" className="profile-img "></img>
                 <h1 className=" center-items">AJMAL KHAN</h1>
                 <div className=" center-items">
-                  DevSecOps Engineer AND Openshift Administrator
+                  DevSecOps Engineer AND Openshift Administrator 
                 </div>
                 <div className="social-icons">
                   <FaLinkedin
