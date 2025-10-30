@@ -460,7 +460,7 @@ function Home() {
                 <img src="images/Ajay.png" className="profile-img "></img>
                 <h1 className=" center-items">AJMAL KHAN</h1>
                 <div className=" center-items">
-                  I am a Software and DevSecOps Engineer
+                  DevSecOps Engineer AND Openshift Administrator
                 </div>
                 <div className="social-icons">
                   <FaLinkedin
