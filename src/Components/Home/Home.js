@@ -82,7 +82,12 @@ let skillToolsDevOpss = [
   {
     skill_date: "2024-03-12",
     skill: "Red-Hat Openshift",
-    per: 79,
+    per: 90,
+  },
+    {
+    skill_date: "2024-03-12",
+    skill: "Red-Hat Openshift Deployment (UPI+Cloud)",
+    per: 90,
   },
   {
     skill_date: "2024-03-12",
@@ -541,10 +546,10 @@ function Home() {
             <br />
             <br />
             <h4>Technical Expertise:</h4>
-            <p>As a DevSecOps Engineer with 4+ years of experience, I specialize in end-to-end application lifecycle management—from developing scalable backend systems (Django, REST APIs) and dynamic frontends (React/JavaScript) to deploying secure, high-availability infrastructure on cloud (Oracle/Azure) and on-premises (OpenShift). My technical proficiency spans Kubernetes/OpenShift cluster deployment, Infrastructure-as-Code (Terraform), and CI/CD pipeline automation (Jenkins), with rigorous attention to security via Trivy, Checkov, and GitLeaks integration. I optimize performance through load testing (Locust), monitoring (Prometheus/Grafana), and database tuning (PostgreSQL, Redis), ensuring robust solutions aligned with DevSecOps principles.</p>
+            <p>As a DevSecOps Engineer and Openshift Administrator with a half decade of experience, I specialize in end-to-end application lifecycle management—from containerizing scalable backend systems (APIs) and dynamic frontends (React,Angular/JavaScript) to deploying secure, high-availability infrastructure on cloud (AWS/Oracle/Azure) and on-premises (OpenShift). My technical proficiency spans Kubernetes/OpenShift cluster deployment (openshift through UPI method and on Cloud), Infrastructure-as-Code (Terraform), and CI/CD pipeline automation (Jenkins), with rigorous attention to security via Trivy, Checkov, and GitLeaks integration. I optimize performance through load testing (Locust), monitoring (Prometheus/Grafana), and database tuning (PostgreSQL, Redis), ensuring robust solutions aligned with DevSecOps principles.</p>
             <br />
-            <h4>DevOps & Cloud Capabilities:</h4>
-            <p>I architect fault-tolerant systems using containerization (Docker/Podman) and orchestration tools (Kubernetes/kubeadm), with expertise in configuring reverse proxies (Nginx) and managing hybrid cloud environments. My work includes designing secure VPCs, automating Oracle OKE deployments, and implementing zero-downtime strategies for Django applications. Certified in Kubernetes (CKA/CKS) and OpenShift (RHCOA), I bridge development and operations, infrastructure security, and AI-driven observability—all while maintaining compliance with Linux FHS standards and optimizing costs through centralized monitoring.</p>
+            <h4>DevOps, Openshift & Cloud Capabilities:</h4>
+            <p>I architect fault-tolerant systems using containerization (Docker/Podman) and orchestration tools (Kubernetes/kubeadm/Openshift), with expertise in configuring reverse proxies (Nginx,Apache) and managing hybrid cloud environments. My work includes designing secure VPCs, automating cloud deployments, and implementing zero-downtime strategies for enterprise grade applications. Certified in Kubernetes (CKA/CKS) and OpenShift (RHCOA), I bridge development and operations, infrastructure security, and AI-driven observability—all while maintaining compliance with Linux FHS standards and optimizing costs through centralized monitoring and Logging.</p>
             <p>
               Explore my portfolio to discover the projects that showcase my
               commitment to delivering innovative solutions and my journey
