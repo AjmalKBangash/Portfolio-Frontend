@@ -140,7 +140,7 @@ I'm open and ready to dive into exciting new projects, so don't hesitate to drop
     rel="noopener noreferrer"
   >
     <FaWhatsapp style={{fontSize: "30px", marginRight: '10px'}} />  <span style={{position: 'absolute', marginTop: "7px", textDecoration: 'underline',  textUnderlineOffset: "4px" ,   textDecorationThickness: "2px" }}> <span style={{color: " 	#505050", }} className="contact-links-whatsapp"
-    >+966 50 746 0747</span></span>
+    >+966 54502 2933</span></span>
   </a>
 </div>
 <br/>
